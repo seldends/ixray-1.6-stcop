@@ -132,7 +132,7 @@ float3 deband_color(float3 image, float2 uv)
 
 float4 combine_bloom(float3 low, float4 high)
 {
-    return float4(low + high * high.a, 1.f);
+    return float4(low + high.xyz * high.w, 1.f);
 }
 
 float calc_fogging(float4 w_pos)
@@ -188,16 +188,6 @@ float get_hemi(float4 lmh)
 float get_sun(float4 lmh)
 {
     return lmh.y;
-}
-
-float3 v_hemi(float3 n)
-{
-    return L_hemi_color * L_hemi_color * (.5f + .5f * n.y);
-}
-
-float3 v_sun(float3 n)
-{
-    return L_sun_color * dot(n, -L_sun_dir_w);
 }
 
 float3 calc_reflection(float3 pos_w, float3 norm_w)

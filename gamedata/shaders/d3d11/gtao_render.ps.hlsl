@@ -156,18 +156,18 @@ uint main(PSInput I) : SV_Target
     // Unpack G-Buffer data...
     float3 Normal, Point; float Depth;
     {
-        Depth = s_position.SampleLevel(smp_nofilter, I.texcoord, 0.0).x;
+        Depth = s_position.SampleLevel(smp_nofilter, I.texcoord.xy, 0.0).x;
 
-        Normal = s_normal.SampleLevel(smp_nofilter, I.texcoord, 0.0).xyz;
+        Normal = s_normal.SampleLevel(smp_nofilter, I.texcoord.xy, 0.0).xyz;
         Normal = normalize(Normal.xyz - 0.5f);
         Normal.z = -Normal.z;
 
         float s_view_z = depth_unpack.x / (Depth - depth_unpack.y);
-        Point = float3((I.texcoord * 2.0 - 1.0) * pos_decompression_params.xy, 1.0) * s_view_z;
+        Point = float3((I.texcoord.xy * 2.0 - 1.0) * pos_decompression_params.xy, 1.0) * s_view_z;
     }
 
     // Init
-    float occlusion = example_how_to_not_implement_gtao(Point, Normal, Depth, I.texcoord, jitter);
+    float occlusion = example_how_to_not_implement_gtao(Point, Normal, Depth, I.texcoord.xy, jitter);
 
     // Pack the data into R32_UINT
     uint2 packed = uint2(asuint(f32tof16(Point.z)), (asuint(f32tof16(occlusion)) << 16));

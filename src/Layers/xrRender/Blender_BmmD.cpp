@@ -217,10 +217,15 @@ void	CBlender_BmmD::Compile	(CBlender_Compile& C)
 		C.r_dx10Texture("s_dt_b", oB_Name);
 		C.r_dx10Texture("s_dt_a", oA_Name);
 
-		C.r_dx10Texture		("s_dn_r",	xr_strconcat(mask,oR_Name,"_bump") );
-		C.r_dx10Texture		("s_dn_g",	xr_strconcat(mask,oG_Name,"_bump") );
-		C.r_dx10Texture		("s_dn_b",	xr_strconcat(mask,oB_Name,"_bump") );
-		C.r_dx10Texture		("s_dn_a",	xr_strconcat(mask,oA_Name,"_bump") );
+		C.r_dx10Texture		("s_dn_r",	xr_strconcat(mask,oR_Name,"_bump"));
+		C.r_dx10Texture		("s_dn_g",	xr_strconcat(mask,oG_Name,"_bump"));
+		C.r_dx10Texture		("s_dn_b",	xr_strconcat(mask,oB_Name,"_bump"));
+		C.r_dx10Texture		("s_dn_a",	xr_strconcat(mask,oA_Name,"_bump"));
+
+		C.r_dx10Texture		("s_dnx_r",	xr_strconcat(mask,oR_Name,"_bump#"));
+		C.r_dx10Texture		("s_dnx_g",	xr_strconcat(mask,oG_Name,"_bump#"));
+		C.r_dx10Texture		("s_dnx_b",	xr_strconcat(mask,oB_Name,"_bump#"));
+		C.r_dx10Texture		("s_dnx_a",	xr_strconcat(mask,oA_Name,"_bump#"));
 
 		C.r_dx10Sampler("smp_base");
 		C.r_dx10Sampler("smp_linear");

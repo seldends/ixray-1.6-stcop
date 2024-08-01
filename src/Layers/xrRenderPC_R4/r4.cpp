@@ -1138,7 +1138,7 @@ HRESULT	CRender::shader_compile(
 		_result = D3DCompile(
 			pSrcData,
 			SrcDataLen,
-			"",//nullptr, //LPCSTR pFileName,	//	NVPerfHUD bug workaround.
+			name,//nullptr, //LPCSTR pFileName,	//	NVPerfHUD bug workaround.
 			defines, &Includer, pFunctionName,
 			pTarget,
 			Flags, 0,
@@ -1157,15 +1157,18 @@ HRESULT	CRender::shader_compile(
 			}
 			_result = create_shader(pTarget, (DWORD*)pShaderBuf->GetBufferPointer(), (u32)pShaderBuf->GetBufferSize(), file_name, result, o.disasm);
 		}
-		else {
-			Msg("! %s", file_name);
+		//else {
+		//	Msg("! %s", file_name);
 
-			if(pErrorBuf) {
-				Msg("! error: %s", (LPCSTR)pErrorBuf->GetBufferPointer());
-			}
-			else {
-				Msg("Can't compile shader hr=0x%08x", _result);
-			}
+		//	if(pErrorBuf) {
+		//		Msg("! error: %s", (LPCSTR)pErrorBuf->GetBufferPointer());
+		//	}
+		//	else {
+		//		Msg("Can't compile shader hr=0x%08x", _result);
+		//	}
+		//}
+		if(pErrorBuf) {
+			Msg("! error: %s", (LPCSTR)pErrorBuf->GetBufferPointer());
 		}
 	}
 

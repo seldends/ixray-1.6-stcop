@@ -12,9 +12,9 @@ static const float fParallaxStopFade = 12.0f;
 #ifdef USE_STEEPPARALLAX
 #ifdef ALLOW_STEEPPARALLAX
 
-void UpdateTC(inout p_bumped_new I)
+void UpdateTC(inout p_bumped_new I, inout float2 texCoord, Texture2D heightMap)
 {
-    if (I.position.z < fParallaxStopFade)
+    if(I.position.z < fParallaxStopFade)
     {
 		float3x3 TBN = float3x3(I.M1,I.M2,I.M3);
 		float3 viewDir = mul(transpose(TBN), -I.position);   // better
@@ -30,15 +30,15 @@ void UpdateTC(inout p_bumped_new I)
 		viewDir.xy *= PARALLAX_HEIGHT;
 		float2 texcoordDelta = viewDir.xy * layerDepth;
 		
-		float2 currTexCoord = I.tcdh;
-		float currDepthMapVal = 1.0f - s_bumpX.Sample(smp_base, currTexCoord).w;
-		float currLayerDepth = 0.5f;
+		float2 currTexCoord = texCoord;
+		float currDepthMapVal = 1.0f - heightMap.Sample(smp_base, currTexCoord).w;
+		float currLayerDepth = 0.0f;
 		
 		[loop] while(currLayerDepth < currDepthMapVal)
 		{
 			currLayerDepth += layerDepth;
 			currTexCoord -= texcoordDelta;
-			currDepthMapVal = 1.0f - s_bumpX.SampleLevel(smp_base, currTexCoord, 0.0f).w;
+			currDepthMapVal = 1.0f - heightMap.SampleLevel(smp_base, currTexCoord, 0.0f).w;
 		}
 		
 		texcoordDelta *= 0.5;
@@ -50,7 +50,7 @@ void UpdateTC(inout p_bumped_new I)
 		[unroll(reliefSteps)]
 		for(uint i = 0; i < reliefSteps; ++i)
 		{
-			currDepthMapVal = 1.0f - s_bumpX.Sample(smp_base, currTexCoord).w;
+			currDepthMapVal = 1.0f - heightMap.Sample(smp_base, currTexCoord).w;
 			
 			texcoordDelta *= 0.5f;
 			layerDepth *= 0.5f;
@@ -68,21 +68,21 @@ void UpdateTC(inout p_bumped_new I)
 		}
 			
         float fParallaxFade = smoothstep(fParallaxStartFade, fParallaxStopFade, I.position.z);	
-		I.tcdh.xy = lerp(currTexCoord, I.tcdh.xy, fParallaxFade);
+		texCoord = lerp(currTexCoord, texCoord, fParallaxFade);
     }
 }
 
 #else
 
-void UpdateTC(inout p_bumped_new I)
+void UpdateTC(inout p_bumped_new I, inout float2 texCoord, Texture2D heightMap)
 {
     float3x3 TBN = float3x3(I.M1, I.M2, I.M3);
     float3 viewDir = mul(transpose(TBN), -I.position);
     viewDir = normalize(viewDir);
 
-    float height = s_bumpX.Sample(smp_base, I.tcdh.xy).w - 0.5f;
-    height *= PARALLAX_HEIGHT;
-    I.tcdh.xy += height * viewDir.xy;
+    float height = tmp_bumpX.Sample(smp_base, texCoord).w;
+    height *= PARALLAX_HEIGHT * rcp(viewDir.z);
+    texCoord += height * viewDir.xy;
 }
 
 #endif
@@ -91,7 +91,7 @@ void UpdateTC(inout p_bumped_new I)
 void SloadNew(inout p_bumped_new I, inout IXrayMaterial M)
 {
 #if defined(USE_STEEPPARALLAX) && defined(USE_HIGH_QUALITY)
-    UpdateTC(I);
+    UpdateTC(I, I.tcdh.xy, s_bumpX);
 #endif
 
     M.Color = s_base.Sample(smp_base, I.tcdh.xy);

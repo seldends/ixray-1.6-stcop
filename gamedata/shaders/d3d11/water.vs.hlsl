@@ -42,45 +42,31 @@ void main(in v_vert v, out vf o)
     P = watermove(P);
 
     o.pos = P.xyz;
-    o.v2point = P - eye_position;
+    o.v2point = P.xyz - eye_position;
 
-    o.tbase = P.xz * 0.3; // unpack_tc_base(v.uv, v.T.w, v.B.w);
+    o.tbase = P.xz * 0.3f;
     o.tnorm0 = watermove_tc(o.tbase * W_DISTORT_BASE_TILE_0, P.xz, W_DISTORT_AMP_0);
     o.tnorm1 = watermove_tc(o.tbase * W_DISTORT_BASE_TILE_1, P.xz, W_DISTORT_AMP_1);
 
-    // Calculate the 3x3 transform from tangent space to eye-space
-    // TangentToEyeSpace = object2eye * tangent2object
-    // = object2eye * transpose(object2tangent) (since the inverse of a rotation is its transpose)
-
-    float3 N = normalize(unpack_bx2(v.N));
-
-    float3 T = float3(-1.0f, 0.0f, 0.0f);
+    float3 N = normalize(unpack_bx2(v.N.xyz));
+    float3 T = -float3(1.0f, 0.0f, 0.0f);
     T = normalize(T - dot(T, N) * N);
-
     float3 B = cross(N, T);
 
     float3x3 xform = mul((float3x3)m_W, float3x3(
         T.x, B.x, N.x,
         T.y, B.y, N.y,
         T.z, B.z, N.z));
-
-    // The pixel shader operates on the bump-map in [0..1] range
-    // Remap this range in the matrix, anyway we are pixel-shader limited :)
-    // ...... [ 2  0  0  0]
-    // ...... [ 0  2  0  0]
-    // ...... [ 0  0  2  0]
-    // ...... [-1 -1 -1  1]
-    // issue: strange, but it's slower :(
-    // issue: interpolators? dp4? VS limited? black magic?
-
+		
     // Feed this transform to pixel shader
     o.M1 = xform[0];
     o.M2 = xform[1];
     o.M3 = xform[2];
 
     float3 L_rgb = v.color.xyz; // precalculated RGB lighting
-    float3 L_sun = v_sun(N) * v.color.w; // sun
-    float3 L_final = L_rgb + L_sun + L_ambient;
+    float3 L_sun = L_sun_color.xyz * dot(N, -L_sun_dir_w.xyz) * v.color.w; // sun
+	
+    float3 L_final = L_rgb + L_sun + L_ambient.xyz;
 
     // xform, input in world coords
     o.hpos = mul(m_VP, P);

@@ -1,6 +1,5 @@
 #include "common.hlsli"
 #include "reflections.hlsli"
-#include "hmodel.hlsli"
 
 struct vf
 {
@@ -30,22 +29,22 @@ Texture2D s_caustic;
 float3 SpecularPhong(float3 Point, float3 Normal, float3 Light)
 {
 	float3 LightColor = max(0.0f, L_sun_color.xyz * 4.0f - 1.0f);
-	return LightColor * pow(dot(normalize(Point + Light), -Normal), 256.0);
+	return LightColor * pow(abs(dot(normalize(Point + Light), -Normal)), 256.0f);
 }
 
 // Pixel
 float4 main(vf I, float4 pos2d : SV_Position) : SV_Target
 {
-	float4 base = s_base.Sample(smp_base, I.tbase);
+	float4 base = s_base.Sample(smp_base, I.tbase.xy);
 	
-	float3 n0 = s_nmap.Sample(smp_base, I.tnorm0);
-	float3 n1 = s_nmap.Sample(smp_base, I.tnorm1);
+	float3 n0 = s_nmap.Sample(smp_base, I.tnorm0.xy).xyz;
+	float3 n1 = s_nmap.Sample(smp_base, I.tnorm1.xy).xyz;
 	float3 Navg = n0 + n1 - 1.0f;
 
     float3 Nw = normalize(mul(float3x3(I.M1, I.M2, I.M3), Navg).xyz);
 	
-	float3 envd0 = env_s0.Sample(smp_rtlinear, Nw);
-	float3 envd1 = env_s1.Sample(smp_rtlinear, Nw);
+	float3 envd0 = env_s0.Sample(smp_rtlinear, Nw).xyz;
+	float3 envd1 = env_s1.Sample(smp_rtlinear, Nw).xyz;
 	
 	float3 envd = lerp(envd0, envd1, L_ambient.w) * L_hemi_color.xyz;
 	float3 color = I.c0.xyz + envd * envd * I.c0.w;
@@ -57,7 +56,7 @@ float4 main(vf I, float4 pos2d : SV_Position) : SV_Target
 	float fresnel = saturate(dot(vreflect, v2point));
 
 #ifdef USE_SSLR_ON_WATER
-	float4 sslr = calc_reflections(I.pos, pos2d, vreflect);
+	float4 sslr = calc_reflections(I.pos.xyz, pos2d.xy, vreflect);
 #endif
 
 	float2 rotation = 0.0f;
@@ -71,8 +70,8 @@ float4 main(vf I, float4 pos2d : SV_Position) : SV_Target
 	vreflect /= vreflectmax;
 	vreflect.y = vreflect.y * 2.0f - 1.0f;
 
-	float3 env0 = s_env0.Sample(smp_rtlinear, vreflect);
-	float3 env1 = s_env1.Sample(smp_rtlinear, vreflect);
+	float3 env0 = s_env0.Sample(smp_rtlinear, vreflect).xyz;
+	float3 env1 = s_env1.Sample(smp_rtlinear, vreflect).xyz;
 	
 	float3 env = lerp(env0, env1, L_ambient.w) * L_sky_color.xyz;
 
@@ -89,12 +88,13 @@ float4 main(vf I, float4 pos2d : SV_Position) : SV_Target
 	alpha = lerp(alpha, 1.0f, base.w);
 	
 #ifdef USE_SOFT_WATER
-	// Igor: additional depth test
-	float2 PosTc = I.tctexgen.xy / I.tctexgen.z;
-	gbuffer_data gbd = gbuffer_load_data(PosTc, pos2d);
+    float2 PosTc = I.tctexgen.xy / I.tctexgen.z;
 	
-	float3 waterPos = gbd.P.xyz * rcp(gbd.P.z) * I.tctexgen.z;
-	float waterDepth = length(waterPos - gbd.P) * 0.75f;
+    IXrayGbuffer O;
+    GbufferUnpack(PosTc, pos2d.xy, O);
+	
+	float3 waterPos = O.Point.xyz * rcp(O.Point.z) * I.tctexgen.z;
+	float waterDepth = length(waterPos - O.Point) * 0.75f;
 
 	//	water fog
 	float fog = 1.0f - exp(-4.0f * waterDepth);
@@ -104,7 +104,6 @@ float4 main(vf I, float4 pos2d : SV_Position) : SV_Target
 	alpha = min(alpha, saturate(waterDepth));
 	alpha = max(fog, alpha);
 
- 	// color = I.c0.xyz + L_hemi_color.xyz * I.c0.w; color *= 2.0f;
 	//	Leaves
 	float4 leaves = s_leaves.Sample(smp_base, I.tbase);
 	leaves.xyz *= water_intensity.xxx * color;
@@ -118,13 +117,13 @@ float4 main(vf I, float4 pos2d : SV_Position) : SV_Target
 	float4 Light = s_accumulator.Sample(smp_nofilter, PosTc);
 	Light *= 1.0f - base.w;
 	
-	float2 CausticTexcoord = mul(m_invV, float4(gbd.P.xyz, 1.0f)).xz * 0.45f;
+	float2 CausticTexcoord = mul(m_invV, float4(O.Point.xyz, 1.0f)).xz * 0.45f;
 	float3 Caustic = s_caustic.Sample(smp_base, CausticTexcoord).yyy;
 	
 	final += SpecularPhong(v2point, Nw, L_sun_dir_w.xyz) * Light.w;
 	final += Caustic * Light.xyz * 0.25f;
 	
-	final = lerp(final, leaves, leaves.w * fLeavesFactor);
+	final = lerp(final, leaves.xyz, leaves.w * fLeavesFactor);
 	alpha = max(alpha, leaves.w * fLeavesFactor);
 #endif //	USE_SOFT_WATER
 	
@@ -132,6 +131,6 @@ float4 main(vf I, float4 pos2d : SV_Position) : SV_Target
 	alpha *= 1.0f - ffog * ffog;
 	
 	//	Fogging
-	final = lerp(final, fog_color, ffog);
+	final = lerp(final, fog_color.xyz, ffog);
 	return float4(final, alpha);
 }

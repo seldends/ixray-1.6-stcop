@@ -17,15 +17,16 @@ struct v2p
 // Pixel
 float4 main(v2p I) : SV_Target
 {
-    float4 result = I.c * s_base.Sample(smp_base, I.tc0);
-  // result.xyz *= L_hemi_color.xyz + L_ambient.xyz;
+    float4 result = I.c * s_base.Sample(smp_base, I.tc0.xy);
 
     //	Igor: additional depth test
 #ifdef USE_SOFT_PARTICLES
     float2 tcProj = I.tctexgen.xy / I.tctexgen.w;
-    gbuffer_data gbd = gbuffer_load_data(tcProj, I.hpos);
-    float4 _P = float4(gbd.P, gbd.mtl);
-    float spaceDepth = _P.z - I.tctexgen.z;
+	
+    IXrayGbuffer O;
+    GbufferUnpack(tcProj, I.hpos.xy, O);
+    float spaceDepth = O.Point.z - I.tctexgen.z;
+	
     result.a *= Contrast(saturate(spaceDepth * 1.3h), 2);
     result.rgb *= Contrast(saturate(spaceDepth * 1.3h), 2);
 #endif //	USE_SOFT_PARTICLES
@@ -35,3 +36,4 @@ float4 main(v2p I) : SV_Target
     result.w *= I.fog;
     return result;
 }
+

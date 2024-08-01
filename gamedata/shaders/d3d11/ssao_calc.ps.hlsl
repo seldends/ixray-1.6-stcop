@@ -44,21 +44,22 @@ struct _input
 float4 main(_input I) : SV_Target0
 {
     IXrayGbuffer O;
-    GbufferUnpack(I.tc0, I.pos2d, O);
-    float4 Light = s_accumulator.Sample(smp_nofilter, I.tc0);
+    GbufferUnpack(I.tc0.xy, I.pos2d.xy, O);
+    float4 Light = s_accumulator.Sample(smp_nofilter, I.tc0.xy);
 
     float4 P = float4(O.PointReal, 1.0f);
     float4 N = float4(O.Normal, 1.0f);
 
 #ifdef USE_HDAO
     #if SSAO_QUALITY > 3
-    float occ = calc_new_hdao(P, N, I.tc0, I.tcJ, I.pos2d);
+    float occ = calc_new_hdao(P, N, I.tc0.xy, I.tcJ, I.pos2d);
     #else
-    float occ = calc_hdao(P, N, I.tc0, I.tcJ, I.pos2d);
+    float occ = calc_hdao(P, N, I.tc0.xy, I.tcJ, I.pos2d);
     #endif
 #else
-    float occ = calc_ssao(P, N, I.tc0, I.tcJ, I.pos2d);
+    float occ = calc_ssao(P, N, I.tc0.xy, I.tcJ, I.pos2d);
 #endif
 
     return float4(occ, occ, occ, occ);
 }
+

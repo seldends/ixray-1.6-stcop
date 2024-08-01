@@ -2,7 +2,7 @@
 
 float luminance(float2 tc)
 {
-    float3 source = s_image.Sample(smp_rtlinear, tc);
+    float3 source = s_image.Sample(smp_rtlinear, tc).xyz;
     return dot(source, LUMINANCE_VECTOR) * def_hdr;
 }
 
@@ -15,10 +15,10 @@ float4 main(p_build I) : SV_Target
 {
     // first 8 bilinear samples (8x4 = 32 pixels)
     float4 final;
-    final.x = luminance(I.Tex0);
-    final.y = luminance(I.Tex1);
-    final.z = luminance(I.Tex2);
-    final.w = luminance(I.Tex3);
+    final.x = luminance(I.Tex0.xy);
+    final.y = luminance(I.Tex1.xy);
+    final.z = luminance(I.Tex2.xy);
+    final.w = luminance(I.Tex3.xy);
 
     // OK
     return final;

@@ -32,13 +32,13 @@ void main(in v_tree I, out p_bumped_new O)
     float base = m_xform._24;
     float H = pos.y - base;
 
-    float dp = calc_cyclic(wave.w + dot(pos, wave.xyz));
+    float dp = calc_cyclic(wave.w + dot(pos.xyz, wave.xyz));
     float frac = I.tc.z * consts.x;
     float inten = H * dp;
 
     pos.xz += calc_xz_wave(wind.xz * inten, frac);
 
-    float dp_old = calc_cyclic(wave_old.w + dot(pos_old, wave_old.xyz));
+    float dp_old = calc_cyclic(wave_old.w + dot(pos_old.xyz, wave_old.xyz));
     float frac_old = I.tc.z * consts_old.x;
     float inten_old = H * dp_old;
 
@@ -50,9 +50,9 @@ void main(in v_tree I, out p_bumped_new O)
     O.tcdh = float4(tc.xy, hemi, sun);
     O.position = float4(Pe, 1.0f);
 
-    float3 N = unpack_bx4(unpack_D3DCOLOR(I.Nh));
-    float3 T = unpack_bx4(unpack_D3DCOLOR(I.T));
-    float3 B = unpack_bx4(unpack_D3DCOLOR(I.B));
+    float3 N = unpack_bx4(unpack_D3DCOLOR(I.Nh.xyz));
+    float3 T = unpack_bx4(unpack_D3DCOLOR(I.T.xyz));
+    float3 B = unpack_bx4(unpack_D3DCOLOR(I.B.xyz));
 
     float3x3 xform = mul((float3x3)m_xform_v, float3x3(
         T.x, B.x, N.x,

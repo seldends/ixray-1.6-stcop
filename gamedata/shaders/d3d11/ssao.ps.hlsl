@@ -28,7 +28,7 @@ float3 uv_to_eye(float2 uv, float eye_z)
 
 float3 GetViewPos(float2 uv)
 {
-	float depth = s_position.SampleLevel(smp_nofilter, uv, 0);
+	float depth = s_position.SampleLevel(smp_nofilter, uv, 0).x;
     return uv_to_eye(uv, depth_unpack.x * rcp(depth - depth_unpack.y));
 }
 
@@ -95,7 +95,7 @@ float calc_ssao(float3 pos, float3 normal, float2 tc0, float2 tcJ, float2 pos2d)
 	// calculate ao
  	[unroll]
 	for (int i = 0; i < 8; ++i) {
-		float2 deltaUV = reflect(arrKernel[i], rotSample) * radius2D;		
+		float2 deltaUV = reflect(arrKernel[i], rotSample).xy * radius2D;		
 		ao += doPBAO(tc0 + deltaUV, pos, normal, invRad, bias, selfOcc);
 		ao += doPBAO(tc0 + deltaUV * inv2, pos, normal, invRad, bias, selfOcc);
 	}

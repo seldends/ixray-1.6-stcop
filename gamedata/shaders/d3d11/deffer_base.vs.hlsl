@@ -14,9 +14,9 @@ void main(in v_in I, out p_bumped_new O)
     O.tcdh = float4(tc.xy, I.Nh.w, I.Nh.w);
     O.position = float4(Pe, 1.0f);
 
-    float3 N = unpack_bx4(unpack_D3DCOLOR(I.Nh));
-    float3 T = unpack_bx4(unpack_D3DCOLOR(I.T));
-    float3 B = unpack_bx4(unpack_D3DCOLOR(I.B));
+    float3 N = unpack_bx4(unpack_D3DCOLOR(I.Nh).xyz);
+    float3 T = unpack_bx4(unpack_D3DCOLOR(I.T).xyz);
+    float3 B = unpack_bx4(unpack_D3DCOLOR(I.B).xyz);
 
     float3x3 xform = mul((float3x3)m_WV, float3x3(
         T.x, B.x, N.x,

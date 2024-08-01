@@ -84,7 +84,7 @@ void CGameFont::Prepare(const char* name, const char* shader, const char* style,
 	Initialize2(name, shader, style, size);
 }
 
-wchar_t TranslateSymbolUsingCP1251(char Symbol);
+wchar_t TranslateSymbolsXRAY(char Symbol, bool opentype, bool fix_chars);
 
 xr_vector<xr_string> split(const xr_string& s, char delim)
 {
@@ -271,11 +271,9 @@ void CGameFont::Initialize2(const char* name, const char* shader, const char* st
 	for (u32 glyphID = FirstChar; glyphID <= LastChar; glyphID++)
 	{
 		u32 TrueGlyph = glyphID;
-		if (Data.OpenType)
-		{
-			TrueGlyph = TranslateSymbolUsingCP1251((char)glyphID);
 
-		}
+		bool is_need_fix = !!READ_IF_EXISTS(pSettings, r_bool, Name, "fix_symbols", true);
+		TrueGlyph = (u32)TranslateSymbolsXRAY((char)glyphID, Data.OpenType, is_need_fix);
 
 		FT_UInt FreetypeCharacter = FT_Get_Char_Index(OurFont, TrueGlyph);
 
@@ -590,19 +588,22 @@ wchar_t CP1251ConvertationTable[] =
 	0x0457, // ї
 };
 
-wchar_t TranslateSymbolUsingCP1251(char Symbol)
-{
+wchar_t TranslateSymbolsXRAY(char Symbol, bool opentype = false, bool fix_chars = false) {
 	unsigned char RawSymbol = *(unsigned char*)&Symbol;
 
-	if (RawSymbol < 0x80)
-	{
+	if(RawSymbol < 0x80) {
 		return wchar_t(RawSymbol);
 	}
 
-	if (RawSymbol < 0xc0)
-	{
-		return CP1251ConvertationTable[RawSymbol - 0x80];
+	if(fix_chars) {
+		if(RawSymbol < 0xc0) {
+			return CP1251ConvertationTable[RawSymbol - 0x80];
+		}
 	}
 
-	return wchar_t(RawSymbol - 0xc0) + 0x410;
+	if(opentype) {
+		return wchar_t(RawSymbol - 0xc0) + 0x410;
+	}
+
+	return wchar_t(RawSymbol);
 }

@@ -1,5 +1,4 @@
 #include "common.hlsli"
-#include "lmodel.hlsli"
 #include "shadow.hlsli"
 
 #ifndef USE_SUNMASK
@@ -47,7 +46,7 @@ float3 GetWaterNMap(Texture2D s_texture, float2 tc)
 float4 main(float2 tc : TEXCOORD0, float2 tcJ : TEXCOORD1, float4 Color : COLOR, float4 pos2d : SV_Position) : SV_Target
 {
     IXrayGbuffer O;
-    GbufferUnpack(tc, pos2d, O);
+    GbufferUnpack(tc, pos2d.xy, O);
 
     // gbuffer_data gbd = gbuffer_load_data(tc, pos2d);
 

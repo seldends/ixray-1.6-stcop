@@ -1,5 +1,4 @@
 #include "common.hlsli"
-#include "lmodel.hlsli"
 #include "shadow.hlsli"
 
 #ifndef USE_SUNMASK
@@ -17,7 +16,7 @@ float4 WorldZ; //	Float3
 float3 GetNVNMap(Texture3D s_texture, float2 tc, float time)
 {
     //	Unpack NVidia normal map
-    float4 water = s_texture.SampleBias(smp_base, float3(tc, time), -3.) - 0.5;
+    float4 water = s_texture.SampleBias(smp_base, float3(tc, time), -3.0f) - 0.5f;
 
     //	Swizzle
     water.xyz = water.wyz;

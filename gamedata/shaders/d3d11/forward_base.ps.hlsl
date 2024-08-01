@@ -1,7 +1,5 @@
 #include "common.hlsli"
 #include "sload.hlsli"
-#include "lmodel.hlsli"
-#include "hmodel.hlsli"
 
 #include "metalic_roughness_light.hlsli"
 #include "metalic_roughness_ambient.hlsli"
@@ -21,7 +19,7 @@ void main(p_bumped_new I, out f_forward O)
 
 #ifdef USE_AREF
     #ifdef USE_DXT1_HACK
-    M.Color.xyz /= max(0.0001f, M.Color.w);
+    M.Color.xyz *= rcp(max(0.0001f, M.Color.w));
     #endif
 #endif
 
@@ -52,12 +50,12 @@ void main(p_bumped_new I, out f_forward O)
 #endif
 
     float3 Light = M.Sun * DirectLight(float4(L_sun_color, 0.5f), L_sun_dir_e.xyz, M.Normal, M.Point.xyz, M.Color.xyz, M.Metalness, M.Roughness);
-    float3 Ambient = AmbientLighting(M.Point, M.Normal, M.Color, M.Metalness, M.Roughness, M.Hemi);
+    float3 Ambient = AmbientLighting(M.Point, M.Normal, M.Color.xyz, M.Metalness, M.Roughness, M.Hemi);
     O.Color.xyz = Ambient + Light.xyz;
     O.Color.w = M.Color.w;
 
     float fog = saturate(length(M.Point) * fog_params.w + fog_params.x);
-    O.Color.xyz = lerp(O.Color.xyz, fog_color, fog);
+    O.Color.xyz = lerp(O.Color.xyz, fog_color.xyz, fog);
     O.Color.w *= 1.0f - fog * fog;
 
     O.Velocity = I.hpos_curr.xy / I.hpos_curr.w - I.hpos_old.xy / I.hpos_old.w;
