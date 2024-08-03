@@ -13,9 +13,11 @@ void CAddonManager::CanApply(xr_string& TempPath, CLocatorAPI::file& Desc)
 
 	static xr_string addons_path = FS.get_path("$arch_dir_addons$")->m_Path;
 	static xr_string CurrentAddonName = "";
+	static bool IsProcessingAddon = false;
+
 
 	bool PathIsDir = std::filesystem::is_directory(TempPath.data());
-	if (TempPath.Contains(addons_path) && !PathIsDir)
+	if (TempPath.Contains(addons_path) && !PathIsDir && IsProcessingAddon)
 	{
 		static xr_string data_path = FS.get_path("$game_data$")->m_Path;
 		Desc.wrap = xr_strdup(TempPath.data());
@@ -23,8 +25,6 @@ void CAddonManager::CanApply(xr_string& TempPath, CLocatorAPI::file& Desc)
 	}
 	else if (PathIsDir)
 	{
-		static bool IsProcessingAddon = false;
-
 		if (IsProcessingAddon && !TempPath.Contains(CurrentAddonName))
 		{
 			IsProcessingAddon = false;
