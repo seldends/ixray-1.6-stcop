@@ -1942,7 +1942,7 @@ void CActor::spawn_supplies			()
 		return;
 	}
 
-	Level().spawn_item("anim_fake", Position(), ai_location().level_vertex_id(), ID());
+	Level().spawn_item(pGameGlobals->r_string("actor_item", "anim_fake_item"), Position(), ai_location().level_vertex_id(), ID());
 }
 
 

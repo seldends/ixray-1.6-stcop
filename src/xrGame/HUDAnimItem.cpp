@@ -118,8 +118,3 @@ void CHUDAnimItem::PlayHudAnim(const char* Section, const char* Anim)
 
 	Actor()->inventory().Activate(ANIM_SLOT);
 }
-
-bool CHUDAnimItem::Useful() const
-{
-	return false;
-}
