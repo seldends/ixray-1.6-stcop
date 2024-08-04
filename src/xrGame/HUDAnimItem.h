@@ -14,6 +14,7 @@ public:
 	~CHUDAnimItem() = default;
 
 	virtual void Load(LPCSTR section) override;
+	virtual bool Useful() const override;
 
 protected:
 	virtual void UpdateXForm() override {}

@@ -15,7 +15,6 @@
 		<supplies>
 			[spawn] \n
 			device_torch \n
-      anim_fake \n
 			wpn_binoc \n
 			wpn_knife \n
 			detector_simple \n
@@ -70,7 +69,7 @@
 		<name>GENERATE_NAME_stalker</name>
 		<icon>ui_inGame2_Hero</icon>
 		<map_icon x="1" y="0"></map_icon>
-		<bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+		<bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
 		<class>actor_visual_stalker</class>
 		<community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -115,7 +114,7 @@
 		<name>GENERATE_NAME_stalker</name>
 		<icon>ui_inGame2_neutral_1</icon>
 		<map_icon x="1" y="0"></map_icon>
-		<bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+		<bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
 		<class>Stalker_general</class>
 		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -148,7 +147,7 @@
 		<name>GENERATE_NAME_stalker</name>
 		<icon>ui_inGame2_Dolg_2</icon>
 		<map_icon x="1" y="0"></map_icon>
-		<bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+		<bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
 		<class>Stalker_dolg</class>
 		<community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -181,7 +180,7 @@
 		<name>GENERATE_NAME_stalker</name>
 		<icon>ui_inGame2_Freedom_2_mask</icon>
 		<map_icon x="1" y="0"></map_icon>
-		<bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+		<bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
 		<class>Stalker_freedom</class>
 		<community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -213,7 +212,7 @@
 		<name>GENERATE_NAME_stalker</name>
 		<icon>ui_inGame2_bandit_1</icon>
 		<map_icon x="1" y="0"></map_icon>
-		<bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+		<bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
 		<class>Stalker_bandit</class>
 		<community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -245,7 +244,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>Stalker_general_veteran</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -277,7 +276,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_monolit_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>stalker_monolith_default</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -312,7 +311,7 @@
     <name>GENERATE_NAME_private</name>
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_duty_0</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -340,7 +339,7 @@
     <name>GENERATE_NAME_private</name>
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_duty_0</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -368,7 +367,7 @@
     <name>GENERATE_NAME_private</name>
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_duty_0</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -396,7 +395,7 @@
     <name>GENERATE_NAME_private</name>
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_duty_0</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -426,7 +425,7 @@
     <name>GENERATE_NAME_private</name>
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_duty_1</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -456,7 +455,7 @@
     <name>GENERATE_NAME_private</name>
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_duty_1</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -486,7 +485,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_duty_1</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -516,7 +515,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_duty_1</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -548,7 +547,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_duty_2</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -579,7 +578,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_duty_2</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -609,7 +608,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_duty_2</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -641,7 +640,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_duty_2</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -674,7 +673,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_duty_2</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -706,7 +705,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_duty_2</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -738,7 +737,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Dolg_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_duty_2</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -771,7 +770,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Dolg_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_duty_2</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -806,7 +805,7 @@
     <name>GENERATE_NAME_lieutenant</name>
     <icon>ui_inGame2_Dolg_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_duty_3</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -840,7 +839,7 @@
     <name>GENERATE_NAME_lieutenant</name>
     <icon>ui_inGame2_Dolg_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_duty_3</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -874,7 +873,7 @@
     <name>GENERATE_NAME_lieutenant</name>
     <icon>ui_inGame2_Dolg_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_duty_3</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -908,7 +907,7 @@
     <name>GENERATE_NAME_lieutenant</name>
     <icon>ui_inGame2_Dolg_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_duty_3</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -942,7 +941,7 @@
     <name>GENERATE_NAME_lieutenant</name>
     <icon>ui_inGame2_Dolg_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_duty_3</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -978,7 +977,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_duty_4</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1011,7 +1010,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_duty_4</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1044,7 +1043,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_duty_4</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1078,7 +1077,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_duty_4</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1112,7 +1111,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_duty_4</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1146,7 +1145,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_duty_4</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1187,7 +1186,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
  
     <class>sim_default_freedom_0</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1216,7 +1215,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_0</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1246,7 +1245,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_0</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1276,7 +1275,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_0</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1304,7 +1303,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_0</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1334,7 +1333,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_0</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1366,7 +1365,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_1</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1397,7 +1396,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_1</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1428,7 +1427,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_1</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1459,7 +1458,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_1</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1490,7 +1489,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_1</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1521,7 +1520,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_1</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1552,7 +1551,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_1</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1582,7 +1581,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_1</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1615,7 +1614,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_2</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1648,7 +1647,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_2</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1679,7 +1678,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_2</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1712,7 +1711,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_2</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1743,7 +1742,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_2</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1774,7 +1773,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_2</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1807,7 +1806,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_3</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1840,7 +1839,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_3</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1874,7 +1873,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_3</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1908,7 +1907,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_3</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1942,7 +1941,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_3</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1975,7 +1974,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_3</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2010,7 +2009,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_4</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2043,7 +2042,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_4</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2076,7 +2075,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_4</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2110,7 +2109,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_4</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2144,7 +2143,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_4</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2178,7 +2177,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_freedom_4</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2218,7 +2217,7 @@
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_bandit_0</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2248,7 +2247,7 @@
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_bandit_0</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2277,7 +2276,7 @@
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_bandit_0</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2308,7 +2307,7 @@
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_bandit_1</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2339,7 +2338,7 @@
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_bandit_1</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2370,7 +2369,7 @@
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_3_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_bandit_1</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2401,7 +2400,7 @@
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_3_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_bandit_1</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2432,7 +2431,7 @@
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_bandit_1</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2463,7 +2462,7 @@
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_bandit_1</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2495,7 +2494,7 @@
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_bandit_2</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2527,7 +2526,7 @@
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_bandit_2</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2559,7 +2558,7 @@
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_bandit_2</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2590,7 +2589,7 @@
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_3_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_bandit_2</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2622,7 +2621,7 @@
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_bandit_2</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2654,7 +2653,7 @@
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_bandit_2</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2687,7 +2686,7 @@
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_bandit_3</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2720,7 +2719,7 @@
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_3_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_bandit_3</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2753,7 +2752,7 @@
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_bandit_3</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2786,7 +2785,7 @@
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_bandit_3</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2819,7 +2818,7 @@
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_bandit_3</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2854,7 +2853,7 @@
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_bandit_4</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2887,7 +2886,7 @@
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_bandit_4</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2920,7 +2919,7 @@
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_bandit_4</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2953,7 +2952,7 @@
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_bandit_4</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -2986,7 +2985,7 @@
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_3_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_bandit_4</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3025,7 +3024,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_merc_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_killer_0</class>
     <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3055,7 +3054,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_merc_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_killer_0</class>
     <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3088,7 +3087,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_merc_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_killer_1</class>
     <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3119,7 +3118,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_merc_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_killer_1</class>
     <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3151,7 +3150,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_merc_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_killer_1</class>
     <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3185,7 +3184,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_merc_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_killer_2</class>
     <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3217,7 +3216,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_merc_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_killer_2</class>
     <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3249,7 +3248,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_merc_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_killer_2</class>
     <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3281,7 +3280,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_merc_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_killer_2</class>
     <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3313,7 +3312,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_merc_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_killer_2</class>
     <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3345,7 +3344,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_merc_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_killer_2</class>
     <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3379,7 +3378,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_merc_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_killer_3</class>
     <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3413,7 +3412,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_merc_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_killer_3</class>
     <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3448,7 +3447,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_merc_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_killer_3</class>
     <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3482,7 +3481,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_merc_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_killer_3</class>
     <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3516,7 +3515,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_merc_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_killer_3</class>
     <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3550,7 +3549,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_merc_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_killer_3</class>
     <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3586,7 +3585,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_merc_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_killer_4</class>
     <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3620,7 +3619,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_merc_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_killer_4</class>
     <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3661,7 +3660,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3692,7 +3691,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3723,7 +3722,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3754,7 +3753,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3787,7 +3786,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3819,7 +3818,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3851,7 +3850,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3883,7 +3882,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3916,7 +3915,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3948,7 +3947,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -3980,7 +3979,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -4011,7 +4010,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -4043,7 +4042,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -4075,7 +4074,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -4109,7 +4108,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -4142,7 +4141,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -4175,7 +4174,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -4208,7 +4207,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -4241,7 +4240,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -4274,7 +4273,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -4307,7 +4306,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -4340,7 +4339,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -4373,7 +4372,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -4409,7 +4408,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -4444,7 +4443,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -4479,7 +4478,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -4514,7 +4513,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -4549,7 +4548,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_nauchniy</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -4586,7 +4585,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -4621,7 +4620,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -4656,7 +4655,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -4691,7 +4690,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -4726,7 +4725,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_nauchniy</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -4761,7 +4760,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -4798,7 +4797,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_4</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -4833,7 +4832,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_4</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -4869,7 +4868,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_4</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -4904,7 +4903,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_nauchniy</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_stalker_4</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -4944,7 +4943,7 @@
     <name>GENERATE_NAME_private</name>
     <icon>ui_inGame2_Soldier_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_military_0</class>
     <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -4975,7 +4974,7 @@
     <name>GENERATE_NAME_private</name>
     <icon>ui_inGame2_Soldier_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_military_1</class>
     <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5007,7 +5006,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Soldier_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_military_2</class>
     <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5038,7 +5037,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Soldier_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_military_2</class>
     <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5071,7 +5070,7 @@
     <name>GENERATE_NAME_lieutenant</name>
     <icon>ui_inGame2_Soldier_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_military_3</class>
     <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5104,7 +5103,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Soldier_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_military_4</class>
     <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5135,7 +5134,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Soldier_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_military_4</class>
     <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5166,7 +5165,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Soldier_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_military_4</class>
     <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5199,7 +5198,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Soldier_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_military_3_sniper</class>
     <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5235,7 +5234,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_monolit_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_monolith_0</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5266,7 +5265,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_monolit_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_monolith_0</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5297,7 +5296,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_monolit_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_monolith_0</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5330,7 +5329,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_monolit_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_monolith_1</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5361,7 +5360,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_monolit_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_monolith_1</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5392,7 +5391,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_monolit_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_monolith_1</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5423,7 +5422,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_monolit_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_monolith_1</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5456,7 +5455,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_monolit_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_monolith_2</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5487,7 +5486,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_monolit_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_monolith_2</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5518,7 +5517,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_monolit_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_monolith_2</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5549,7 +5548,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_monolit_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_monolith_2</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5580,7 +5579,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_monolit_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_monolith_2</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5611,7 +5610,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_monolit_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_monolith_2</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5642,7 +5641,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_monolit_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_monolith_2</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5673,7 +5672,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_monolit_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_monolith_2</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5706,7 +5705,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_monolit_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_monolith_3</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5739,7 +5738,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_monolit_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_monolith_3</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5772,7 +5771,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_monolit_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_monolith_3</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5805,7 +5804,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_monolit_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_monolith_3</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5837,7 +5836,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_monolit_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_monolith_3</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5872,7 +5871,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_monolit_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_monolith_4</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5904,7 +5903,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_monolit_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_monolith_4</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5937,7 +5936,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_monolit_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_monolith_4</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -5970,7 +5969,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_monolit_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>sim_default_monolith_4</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -6495,7 +6494,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_merc_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>test_killer</class>
     <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -6518,7 +6517,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_merc_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</bio>
 
     <class>test_silencer_character</class>
     <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>

@@ -1934,6 +1934,15 @@ void CActor::spawn_supplies			()
 {
 	inherited::spawn_supplies		();
 	CInventoryOwner::spawn_supplies	();
+
+	if (!pSettings->section_exist("anim_fake"))
+	{
+		Msg("! Animation slot not registered");
+		Msg("! [anim_fake] section missing");
+		return;
+	}
+
+	Level().spawn_item("anim_fake", Position(), ai_location().level_vertex_id(), ID());
 }
 
 
