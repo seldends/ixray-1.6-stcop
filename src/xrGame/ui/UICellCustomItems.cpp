@@ -56,7 +56,7 @@ bool CUIInventoryCellItem::EqualTo(CUICellItem* itm)
 	{
 		return false;
 	}
-	if ( !object()->equal_upgrades( ci->object()->upgardes() ) )
+	if ( !object()->equal_upgrades( ci->object()->upgrades() ) )
 	{
 		return false;
 	}

@@ -419,7 +419,7 @@ void CUIItemInfo::TryAddOutfitInfo( CInventoryItem& pInvItem, CInventoryItem* pC
 
 void CUIItemInfo::TryAddUpgradeInfo( CInventoryItem& pInvItem )
 {
-	if ( pInvItem.upgardes().size() && UIProperties )
+	if ( pInvItem.upgrades().size() && UIProperties )
 	{
 		UIProperties->set_item_info( pInvItem );
 		UIDesc->AddWindow( UIProperties, false );

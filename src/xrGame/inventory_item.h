@@ -303,7 +303,7 @@ public:
 	void	log_upgrades				();
 #endif // DEBUG
 
-	IC Upgrades_type const& upgardes	() const;
+	IC Upgrades_type const& upgrades	() const;
 	virtual void	Interpolate			();
 	float	interpolate_states			(net_update_IItem const & first, net_update_IItem const & last, SPHNetState & current);
 

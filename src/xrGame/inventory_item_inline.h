@@ -13,7 +13,7 @@ IC	bool CInventoryItem::useful_for_NPC					() const
 	return				(Useful() && m_flags.test(Fuseful_for_NPC));
 }
 
-IC CInventoryItem::Upgrades_type const& CInventoryItem::upgardes() const
+IC CInventoryItem::Upgrades_type const& CInventoryItem::upgrades() const
 {
 	return m_upgrades;
 }

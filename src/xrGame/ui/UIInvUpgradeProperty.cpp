@@ -232,5 +232,5 @@ void UIInvUpgPropertiesWnd::set_upgrade_info( Upgrade_type& upgrade )
 
 void UIInvUpgPropertiesWnd::set_item_info( CInventoryItem& item )
 {
-	set_info( item.upgardes() );
+	set_info( item.upgrades() );
 }
