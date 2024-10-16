@@ -191,7 +191,7 @@ git clone https://gitlab.com/ixray-team/ixray/ixray-1.6-stcop.git
 - Запустить скрипт для получения модифицированных файлов и упакованных ассетов
 
   ```sh
-  .\util\generate-patch.bat
+  .\util\generate-patch.bat build\x64\Compressor-Windows\bin\Release\xrCompress.exe
   ```
 
 ## Список изменений

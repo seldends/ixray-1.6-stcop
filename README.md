@@ -191,7 +191,7 @@ To build from the console follow steps below
 - Run script to get modified files and packed assets:
 
   ```sh
-  .\util\generate-patch.bat
+  .\util\generate-patch.bat build\x64\Compressor-Windows\bin\Release\xrCompress.exe
   ```
 
 ## Changelog
