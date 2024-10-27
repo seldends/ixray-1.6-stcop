@@ -145,6 +145,38 @@
         },
 
         {
+            "name": "Editors-Base-Windows",
+            "displayName": "Editors-Base-Windows",
+            "hidden": true,
+            "generator": "Visual Studio 17 2022",
+            "cacheVariables": {
+                "IXRAY_UTILS": "OFF",
+                "IXRAY_EDITORS": "ON",
+                "IXRAY_MP": "OFF",
+                "IXRAY_COMPRESSOR_ONLY": "OFF",
+                "IXRAY_PLUGINS": "OFF",
+                "IXRAY_ASAN": "OFF",
+                "IXRAY_USE_R1": "OFF",
+                "IXRAY_USE_R2": "OFF",
+                "IXRAY_UNITYBUILD": "ON"
+            }
+        },
+        {
+            "name": "Editors-x64-Windows",
+            "displayName": "Editors-x64-Windows",
+            "inherits": "Editors-Base-Windows",
+            "binaryDir": "build/x64/Editors-Windows",
+            "cacheVariables": {
+                "CMAKE_GENERATOR_PLATFORM": "x64"
+            },
+            "vendor": {
+                "microsoft.com/VisualStudioSettings/CMake/1.0": {
+                    "intelliSenseMode": "windows-msvc-x64"
+                }
+            }
+        },
+
+        {
             "name": "Utilities-Base-Windows",
             "displayName": "Utilities-Base-Windows",
             "hidden": true,
@@ -404,6 +436,19 @@
             "displayName": "Server-x64-Windows-Release",
             "configurePreset": "Server-x64-Windows",
             "configuration": "Release"
+        },
+
+        {
+            "name": "Editors-x64-Windows-Debug",
+            "displayName": "Editors-x64-Windows-Debug",
+            "configurePreset": "Editors-x64-Windows",
+            "configuration": "Debug"
+        },
+        {
+            "name": "Editors-x64-Windows-RelWithDebInfo",
+            "displayName": "Editors-x64-Windows-RelWithDebInfo",
+            "configurePreset": "Editors-x64-Windows",
+            "configuration": "RelWithDebInfo"
         },
 
         {
