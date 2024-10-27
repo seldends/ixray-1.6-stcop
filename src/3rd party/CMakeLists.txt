@@ -2,12 +2,13 @@
 set(IXRAY_FOLDER_3RD FOLDER "3rd Party")
 
 # 3rd libraries
-if(NOT IXRAY_COMPRESSOR_ONLY)
+if(NOT IXRAY_COMPRESSOR_ONLY AND NOT IXRAY_PLUGINS)
     add_subdirectory("luabind")
     add_subdirectory("ode")
     add_subdirectory("crypto")
     add_subdirectory("imgui")
     add_subdirectory("opcode")
+
     if(IXRAY_MP)
         add_subdirectory("cximage")
     endif()
@@ -17,7 +18,7 @@ if(WIN32)
     add_subdirectory("dxerr")
 endif()
 
-if(NOT IXRAY_COMPRESSOR_ONLY)
+if(NOT IXRAY_COMPRESSOR_ONLY AND NOT IXRAY_PLUGINS)
     if(IXRAY_UTILS OR IXRAY_EDITORS)
         add_subdirectory("MagicSoftware/FreeMagic/Source")
         set_target_properties(MagicFM PROPERTIES ${IXRAY_FOLDER_3RD})
@@ -29,7 +30,7 @@ if(DEVIXRAY_ENABLE_OGL_RENDER AND NOT IXRAY_COMPRESSOR_ONLY)
 endif()
 
 # Move 3rd
-if(NOT IXRAY_COMPRESSOR_ONLY)
+if(NOT IXRAY_COMPRESSOR_ONLY AND NOT IXRAY_PLUGINS)
     set_target_properties(luabind PROPERTIES ${IXRAY_FOLDER_3RD})
     set_target_properties(ODE PROPERTIES ${IXRAY_FOLDER_3RD})
     set_target_properties(crypto PROPERTIES ${IXRAY_FOLDER_3RD})
