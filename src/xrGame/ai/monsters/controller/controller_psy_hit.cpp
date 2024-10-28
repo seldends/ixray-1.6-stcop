@@ -113,6 +113,11 @@ void CControllerPsyHit::activate()
 	// set direction
 	SControlDirectionData			*ctrl_dir = (SControlDirectionData*)m_man->data(this, ControlCom::eControlDir); 
 	VERIFY							(ctrl_dir);
+	if (ctrl_dir == nullptr)
+	{
+		return;
+	}
+
 	ctrl_dir->heading.target_speed	= 3.f;
 	ctrl_dir->heading.target_angle	= m_man->direction().angle_to_target(pActor->Position());
 
@@ -188,7 +193,10 @@ void CControllerPsyHit::play_anim()
 {
 	SControlAnimationData		*ctrl_anim = (SControlAnimationData*)m_man->data(this, ControlCom::eControlAnimation); 
 	VERIFY						(ctrl_anim);
-
+	if (ctrl_anim == nullptr)
+	{
+		return;
+	}
 	ctrl_anim->global.set_motion ( m_stage[m_current_index] );
 	ctrl_anim->global.actual	= false;
 }
@@ -376,6 +384,10 @@ void CControllerPsyHit::death_glide_start()
 	// set direction
 	SControlDirectionData			*ctrl_dir = (SControlDirectionData*)m_man->data(this, ControlCom::eControlDir); 
 	VERIFY							(ctrl_dir);
+	if (ctrl_dir == nullptr)
+	{
+		return;
+	}
 	ctrl_dir->heading.target_speed	= 3.f;
 	ctrl_dir->heading.target_angle	= m_man->direction().angle_to_target(pActor->Position());
 

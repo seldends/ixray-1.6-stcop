@@ -32,6 +32,10 @@ void CControlRunAttack::activate()
 	
 	SControlDirectionData		*ctrl_dir = (SControlDirectionData*)m_man->data(this, ControlCom::eControlDir); 
 	VERIFY						(ctrl_dir);
+	if (ctrl_dir == nullptr)
+	{
+		return;
+	}
 	ctrl_dir->heading.target_speed	= 3.f;
 	ctrl_dir->heading.target_angle	= m_man->direction().angle_to_target(m_object->EnemyMan.get_enemy()->Position());
 
@@ -39,7 +43,10 @@ void CControlRunAttack::activate()
 	
 	SControlAnimationData		*ctrl_anim = (SControlAnimationData*)m_man->data(this, ControlCom::eControlAnimation); 
 	VERIFY						(ctrl_anim);
-
+	if (ctrl_anim == nullptr)
+	{
+		return;
+	}
 	ctrl_anim->global.set_motion ( smart_cast<IKinematicsAnimated*>(m_object->Visual())->ID_Cycle_Safe("stand_attack_run_0") );
 	ctrl_anim->global.actual	= false;
 }
