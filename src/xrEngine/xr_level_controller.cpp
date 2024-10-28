@@ -787,7 +787,14 @@ public:
 		CCC_UnBindAll::Execute(args);
 		string_path				_cfg;
 		string_path				cmd;
-		FS.update_path			(_cfg,"$game_config$","default_controls.ltx");
+		if (FS.exist("$game_config$", "ixray_settings\\default_controls.ltx"))
+		{
+			FS.update_path(_cfg, "$game_config$", "ixray_settings\\default_controls.ltx");
+		}
+		else
+		{
+			FS.update_path(_cfg, "$game_config$", "default_controls.ltx");
+		}
 		xr_strconcat(cmd,"cfg_load", " ", _cfg);
 		Console->Execute		(cmd);
 	}

@@ -397,13 +397,26 @@ public:
 		CCC_Token::Execute	(args);
 		string_path		_cfg;
 		string_path		cmd;
-		
+
+		auto setConfig = [&](const char* basePath)
+		{
+			xr_string path = xr_string("ixray_settings\\") + basePath;
+			if (FS.exist("$game_config$", path.c_str()))
+			{
+				xr_strcpy(_cfg, path.c_str());
+			}
+			else
+			{
+				xr_strcpy(_cfg, basePath);
+			}
+		};
+
 		switch	(*value)	{
-			case 0:		xr_strcpy(_cfg, "rspec_minimum.ltx");	break;
-			case 1:		xr_strcpy(_cfg, "rspec_low.ltx");		break;
-			case 2:		xr_strcpy(_cfg, "rspec_default.ltx");	break;
-			case 3:		xr_strcpy(_cfg, "rspec_high.ltx");		break;
-			case 4:		xr_strcpy(_cfg, "rspec_extreme.ltx");	break;
+			case 0: setConfig("rspec_minimum.ltx"); break;
+			case 1: setConfig("rspec_low.ltx"); break;
+			case 2: setConfig("rspec_default.ltx"); break;
+			case 3: setConfig("rspec_high.ltx"); break;
+			case 4: setConfig("rspec_extreme.ltx"); break;
 		}
 		FS.update_path			(_cfg,"$game_config$",_cfg);
 		xr_strconcat(cmd,"cfg_load", " ", _cfg);
