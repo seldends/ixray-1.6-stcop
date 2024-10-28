@@ -11,6 +11,7 @@ xr_token							qpreset_token							[ ]={
 	{ "Default",					2											},
 	{ "High",						3											},
 	{ "Extreme",					4											},
+	{ "Ultra",						5											},
 	{ 0,							0											}
 };
 
@@ -417,6 +418,7 @@ public:
 			case 2: setConfig("rspec_default.ltx"); break;
 			case 3: setConfig("rspec_high.ltx"); break;
 			case 4: setConfig("rspec_extreme.ltx"); break;
+			case 5: setConfig("rspec_ultra.ltx"); break;
 		}
 		FS.update_path			(_cfg,"$game_config$",_cfg);
 		xr_strconcat(cmd,"cfg_load", " ", _cfg);
