@@ -247,6 +247,11 @@ void CEntity::KillEntity(u16 whoID)
 {
 	if (ID() == Actor()->ID())
 	{
+		if (GodMode())
+		{
+			return;
+		}
+
 		Actor()->callback(GameObject::eActorBeforeDeath)(whoID);
 	}
 
