@@ -355,7 +355,8 @@ void CCustomDetector::UpdateCL()
 
 	if(m_bDetectorActive)
 	{
-		if (AllowBore())
+		/* TODO: Drombeys to Rawlik: Let's redo it in the gunslinger branch
+		if (HudAnimationExist("anm_bore") && AllowBore())
 		{
 			CActor* pActor = smart_cast<CActor*>(H_Parent());
 			if (pActor && !pActor->AnyMove())
@@ -367,6 +368,7 @@ void CCustomDetector::UpdateCL()
 				}
 			}
 		}
+		*/
 
 		UpdateVisibility		();
 	}
